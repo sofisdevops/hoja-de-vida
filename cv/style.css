@@ -1,0 +1,159 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.boogaloo-regular{
+  font-family: "Boogaloo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf8f6;
+  color: #333;
+  line-height: 1.6;
+}
+
+.main{
+  display: flex;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: linear-gradient(360deg, #fff, #F5E4D6);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.columna-izquierda{
+  width: 40%;
+  background: linear-gradient(360deg, #f5eefb, #e5d1f7);
+  padding: 30px;
+}
+
+.columna-derecha{
+  width: 60%;
+  padding: 40px;
+}
+
+.columna-izquierda h1{  
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFB74D;
+  margin-bottom: 5px;
+}
+
+.foto img{
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.line{
+  background-color: #4DB6AC;
+  height: 3px;
+}
+
+.section{
+  margin-bottom: 25px;
+}
+
+.section h2{
+  color: #4a148c;
+  background-color: #e3d8f8;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: Boogaloo;
+}
+
+.section ul{
+  list-style-type: none;
+  margin-top: 8px;
+}
+.section ul li{
+  margin-bottom: 8px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.section ul li::before{
+  content: "*";
+  color: #6a1b9a;
+  position: absolute;
+  left: 0;
+}
+
+.header h1{
+  font-size: 40px;
+  color: #4DB6AC;
+  margin-bottom: 5px;
+}
+
+.header p{
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.contacto{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.contacto a{
+  color: #FFB74D;
+  text-decoration: none;
+  font-weight: 500;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+.contacto a:hover{
+  color: #8e24aa;
+}
+
+.contacto h2{
+  color: #22534E;
+  background-color: #4DB6AC;
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: Boogaloo;
+  align-self: flex-start;
+}
+
+.lenguajes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.lenguajes span{
+  color: #22534E;
+  background-color: #a1ece5;
+  padding: 6px 12px;
+  margin-top: 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 0.9em;
+  transition: all 0.3s ease;
+}
+
+.lenguajes span:hover{
+  color: #EA2E31;
+  background-color: #EA892E;
+  transform: translateY(-2px);
+}
